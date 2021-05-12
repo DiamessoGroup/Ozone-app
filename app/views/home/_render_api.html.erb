@@ -1,0 +1,11 @@
+<div class="<%= api_color %> p-5 rounded-lg m-3">
+    <h1 class="display-4"><%= final_output %></h1>
+    <% if zip_text %>
+    <h1 class="display-4"><%= zip_text %></h1>
+    <% end %>
+    <% if zip_code %>
+    <p class="lead">This is the current ozone air quality readout for the <%= zip_code %> zipcode</p>
+    <% end %>
+    <p class="lead"><%= api_description %></p>
+    <p class="lead"><%=  api_reporting_area %></p>
+</div>

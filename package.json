@@ -1,0 +1,32 @@
+{
+  "name": "ozone",
+  "private": true,
+  "scripts": {
+    "RServer": "rails s",
+    "RBundle": "bundle install",
+    "RRails": "rails",
+    "RConsole": "rails console",
+    "RDatabase": "rails db",
+    "RMigration": "rails db:migrate",
+    "RRoutes": "rails routes",
+    "Prettier": "yarn add -D prettier @prettier/plugin-ruby prettier-plugin-erb && echo {}> .prettierrc.json"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "5.3.0",
+    "bootstrap": "^5.0.0",
+    "turbolinks": "^5.2.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^1.5.5",
+    "prettier": "^2.3.0",
+    "prettier-plugin-erb": "^0.1.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
