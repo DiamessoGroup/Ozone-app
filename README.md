@@ -1,24 +1,14 @@
-# README
+# Ozone README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An Ozone application based on the api at https://docs.airnowapi.org/
 
-Things you may want to cover:
+- Ruby version
+  ruby-3.0.0
 
-* Ruby version
+- Deployment instructions
 
-* System dependencies
+```
+bundle install
+rails server
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
